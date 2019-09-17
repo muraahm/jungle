@@ -3,7 +3,7 @@
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
-
+  <% if cart_subtotal_cents != 0 then %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +48,8 @@
       <% end %>
     </div>
   </div>
+  <% else %>
+  <h4> Shopping cart empty :) <h4>
+<% end %>
 
 </section>
