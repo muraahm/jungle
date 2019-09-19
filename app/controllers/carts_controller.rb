@@ -1,8 +1,7 @@
 class CartsController < ApplicationController
 
-  before_filter :authorize
-
   def show
+    @user = User.find_by_id(session[:user_id])
   end
 
   def add_item
@@ -20,6 +19,7 @@ class CartsController < ApplicationController
   end
 
   private
+
 
   def modify_cart_delta(product_id, delta)
     cart[product_id] = (cart[product_id] || 0) + delta
