@@ -1,6 +1,12 @@
 source 'https://rubygems.org'
 ruby "2.3.5"
 
+group :test do
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 gem 'rspec-rails', '~> 3.5'
