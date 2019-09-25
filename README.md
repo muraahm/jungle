@@ -1,7 +1,20 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+Jungle is mini e-commerce application built with Rails 4.2. It is seeded with random data.
 
+## Final Product
+
+![Image description](https://github.com/muraahm/jungle/blob/master/docs/home_page.png)
+- - -
+
+![Image description](https://github.com/muraahm/jungle/blob/master/docs/show_product.png)
+- - -
+
+![Image description](https://github.com/muraahm/jungle/blob/master/docs/admin_product_page.png)
+- - -
+
+![Image description](https://github.com/muraahm/jungle/blob/master/docs/admin_sales_page.png)
+- - -
 
 ## Setup
 
