@@ -14,14 +14,12 @@ def open_asset(file_name)
 end
 
 # Only run on development (local) instances not on production, etc.
-unless Rails.env.development?
-  puts "Development seeds only (for now)!"
-  exit 0
-end
+# unless Rails.env.development?
+#   puts "Development seeds only (for now)!"
+#   exit 0
+# end
 
 # Let's do this ...
-
-User.create(email: 'test@example.com', encrypted_password: '#$taawktljasktlw4aaglj')
 
 ## CATEGORIES
 
