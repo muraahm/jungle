@@ -1,7 +1,7 @@
 class SessionsController < ApplicationController
 
-  def new
-  end
+  # def new
+  # end
 
   def create
     # If the user exists AND the password entered is correct.

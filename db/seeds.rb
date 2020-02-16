@@ -21,6 +21,8 @@ end
 
 # Let's do this ...
 
+User.create(email: 'test@example.com', encrypted_password: '#$taawktljasktlw4aaglj')
+
 ## CATEGORIES
 
 puts "Finding or Creating Categories ..."
